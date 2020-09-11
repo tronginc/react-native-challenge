@@ -4,7 +4,6 @@ import produce from 'immer';
 
 const initialAppState: AppState = {
   internetState: true,
-  token: null,
   loading: true,
   theme: 'default',
 };
@@ -14,9 +13,6 @@ export default produce(
     switch (type) {
       case Action.SET_INTERNET:
         draftState.internetState = payload;
-        break;
-      case Action.SET_TOKEN:
-        draftState.token = payload;
         break;
       case Action.SET_APP_THEME:
         console.log('payload', payload);

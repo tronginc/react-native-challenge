@@ -6,11 +6,6 @@ export const onSetInternet = (payload: boolean) => ({
   payload,
 });
 
-export const onSetToken = (payload: any) => ({
-  type: Action.SET_TOKEN,
-  payload,
-});
-
 export const onSetAppTheme = (payload: ThemeType) => ({
   type: Action.SET_APP_THEME,
   payload,
