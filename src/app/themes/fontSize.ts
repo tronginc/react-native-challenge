@@ -1,4 +1,4 @@
-import {moderateScale, FontSize} from '@app/common';
+import { moderateScale, FontSize } from '@app/common';
 export const FontSizeDefault: FontSize = {
   FONT_4: moderateScale(4),
   FONT_5: moderateScale(5),

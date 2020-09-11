@@ -1,4 +1,4 @@
-import {Colors} from '@app/common';
+import { Colors } from '@app/common';
 export const ColorDefault: Colors = {
   primary: 'rgb(0, 122, 255)',
   background: 'rgb(242, 242, 242)',

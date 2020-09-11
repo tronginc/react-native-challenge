@@ -1,4 +1,4 @@
-import {ThemeType} from '@app/theme';
+import { ThemeType } from '@app/theme';
 import * as Action from './actionType';
 
 export interface AppState {

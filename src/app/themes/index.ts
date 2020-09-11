@@ -1,5 +1,5 @@
-import {AppTheme} from '@app/common';
-import {ColorDefault, ColorDark} from './color';
+import { AppTheme } from '@app/common';
+import { ColorDefault, ColorDark } from './color';
 
 const Default: AppTheme = {
   dark: false,
