@@ -3,12 +3,7 @@
     ["module-resolver", {
       "root": ["./"],
       "alias": {
-        "@app/assets": "./src/app/assets",
-        "@app/screen": "./src/app/screens",
-        "@app/common": "./src/app/commons",
-        "@app/theme": "./src/app/themes",
-        "@app/ui": "./src/app/components/ui",
-        "@app/service": "./src/app/services"
+        "@app": "./src/app"
       }
     }]
   ]
